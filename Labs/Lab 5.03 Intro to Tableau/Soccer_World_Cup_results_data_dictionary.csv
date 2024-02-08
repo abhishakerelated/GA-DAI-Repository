@@ -1,0 +1,26 @@
+Soccer_World_Cup_results.csv
+
+Data dictionary
+===============
+
+
+Summary
++++++++
+- Each row in the dataset represents a match that has taken place in the Soccer World Cup between 1930 and 2014 inclusive.
+- Each row includes details of where and when the match was played, which teams were playing against each other, and how many goals were scored by each team.
+
+
+Definition of each field:
++++++++++++++++++++++++++
+- Year - year the match was played
+- Date - the date of the match
+- Time - the time that the match started
+- Round - the round that the match was played in.  At a world cup, there are two stages: the Group stage, and the Knockout stage.  The Group stage consists of a number of groups (the number of groups in a World Cup has grown over the years) with teams in each group.  All teams within a group play each other, and the results determine who proceeds to the Knockout stage.  During the Knockout stage, teams play each other and the winner progresses to the next round; each round is played in the same way until two teams meet in the final.  There is also a Match for third place played between the losers of the semi-finals. Over the years the format has changed, and that is reflected in the data for each World Cup.  For example, in 1934 there were no Groups, just a Preliminary round.  The structure has remained relatively unchanged since 1986 (the only change has been expansion of the number of groups in the Group stage).
+- Stadium - the stadium that the game was played in
+- City - the city that the game was played in
+- Country - the country that the game was played in (each World Cup year is hosted by a different country, so there is only one country per year)
+- HomeTeam - the team treated as the Home Team for the match.  This does not affect the outcome, only things like which shirts are worn.
+- HomeGoals - the number of goals scored in the match by the HomeTeam
+- AwayGoals - the team treated as the Home Team for the match.  This does not affect the outcome, only things like which shirts are worn.
+- AwayTeam - the number of goals scored in the match by the AwayTeam
+- Observation - optional field, giving more insight into the match where necessary.  For example, when a score is tied in the Knockout stage during normal time, a team may win during extra time, or may win thanks to a Golden Goal, or may win on penalties.
